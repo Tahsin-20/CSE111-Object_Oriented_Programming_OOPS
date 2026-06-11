@@ -1,0 +1,23 @@
+package Task01a;
+
+public class UniversityTester{
+	public static void main(String[]args){
+
+		University u1=new University();
+		System.out.println(u1);
+		System.out.println(u1.name);
+		System.out.println(u1.country);
+
+		University u2=new University();
+		System.out.println(u2);
+		System.out.println(u2.name);
+		System.out.println(u2.country);
+
+		if(u1==u2){
+			System.out.println("Location same");
+		}
+		else{
+			System.out.println("Location Different");
+		}
+	}
+}
